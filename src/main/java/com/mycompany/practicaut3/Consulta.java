@@ -19,19 +19,26 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
+ * Servlet encargado de consultar la lista de libros desde la base de datos
+ * y mostrarla en una página JSP.
+ * Realiza una consulta que obtiene información sobre los libros, incluyendo
+ * el título, ISBN, año de publicación, nombre de la editorial y autores.
+ * Los resultados se envían a un JSP para su visualización.
+ * 
  * @author fnast
  */
 public class Consulta extends HttpServlet {
 
     /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
+     * Maneja la solicitud GET para consultar los libros en la base de datos.
+     * Realiza una consulta SQL que obtiene la información de los libros,
+     * incluyendo su título, autor, ISBN, año de publicación y editorial.
+     * Los resultados se procesan y se envían al JSP para su visualización.
      *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
+     * @param request La solicitud HTTP que contiene los parámetros de la consulta.
+     * @param response La respuesta HTTP que enviará los resultados al cliente.
+     * @throws ServletException Si ocurre un error en la ejecución del servlet.
+     * @throws IOException Si ocurre un error en la entrada/salida de la solicitud o respuesta.
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

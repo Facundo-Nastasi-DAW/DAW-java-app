@@ -8,7 +8,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 /**
- *
+ * Clase DbManager encargada de gestionar las conexiones a la base de datos.
+ * Esta clase proporciona métodos para probar la conexión y obtener una
+ * conexión activa con la base de datos de libros.
+ * 
  * @author fnast
  */
 public class DbManager {
@@ -18,7 +21,11 @@ public class DbManager {
     private final String user = "tomcat";
     private final String pwd = "1234";
     
-    // Método para probar la conexión a la db
+    /**
+     * Método para probar la conexión a la base de datos.
+     * Intenta establecer una conexión con la base de datos y
+     * muestra un mensaje indicando si la conexión fue exitosa o no.
+     */
     public void prueba(){
         try{
             Class.forName("org.mariadb.jdbc.Driver");
@@ -30,7 +37,13 @@ public class DbManager {
         }
     }
     
-    // Método que devuelve una conexión a la db
+    /**
+     * Método que devuelve una conexión activa a la base de datos.
+     * Establece una conexión con la base de datos usando los parámetros
+     * configurados en la clase y la devuelve para su uso en otras operaciones.
+     *
+     * @return La conexión activa con la base de datos, o null si ocurre un error.
+     */
     public Connection getConnection(){
         try{
             Class.forName("org.mariadb.jdbc.Driver");

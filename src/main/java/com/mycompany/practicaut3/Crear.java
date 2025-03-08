@@ -14,11 +14,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
+ * Servlet encargado de crear un nuevo libro en la base de datos.
+ * Este servlet recibe los datos del libro desde un formulario, los inserta
+ * en la base de datos y redirige al usuario a la lista de libros.
+ * 
  * @author fnast
  */
 public class Crear extends HttpServlet {
 
+    /**
+     * Maneja la solicitud POST para crear un nuevo libro en la base de datos.
+     * Recibe los datos del libro desde un formulario y los inserta en la tabla
+     * de libros de la base de datos.
+     *
+     * @param request La solicitud HTTP que contiene los parámetros del formulario.
+     * @param response La respuesta HTTP que enviará el resultado al cliente.
+     * @throws ServletException Si ocurre un error en la ejecución del servlet.
+     * @throws IOException Si ocurre un error en la entrada/salida de la solicitud o respuesta.
+     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String titol = request.getParameter("titol");

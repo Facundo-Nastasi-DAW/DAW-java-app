@@ -14,11 +14,23 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
+ * Servlet que permite actualizar la información de un libro en la base de datos.
+ * Este servlet maneja tanto la visualización del formulario de modificación como la actualización
+ * de los datos del libro en la base de datos.
+ * 
  * @author fnast
  */
 public class Actualizar extends HttpServlet {
-
+    
+    /**
+     * Maneja la solicitud GET. Obtiene los detalles del libro a actualizar
+     * desde la base de datos y los envía al formulario de modificación.
+     *
+     * @param request La solicitud HTTP que contiene los parámetros.
+     * @param response La respuesta HTTP en la que se enviará el resultado.
+     * @throws ServletException Si ocurre un error en la ejecución del servlet.
+     * @throws IOException Si ocurre un error en la entrada/salida de la solicitud o respuesta.
+     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int idLibro = Integer.parseInt(request.getParameter("id"));
@@ -52,6 +64,15 @@ public class Actualizar extends HttpServlet {
         }
     }
 
+    /**
+     * Maneja la solicitud POST. Actualiza los datos del libro en la base de datos
+     * con los valores recibidos desde el formulario de modificación.
+     *
+     * @param request La solicitud HTTP que contiene los parámetros del formulario.
+     * @param response La respuesta HTTP en la que se enviará el resultado.
+     * @throws ServletException Si ocurre un error en la ejecución del servlet.
+     * @throws IOException Si ocurre un error en la entrada/salida de la solicitud o respuesta.
+     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String titol = request.getParameter("titol");

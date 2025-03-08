@@ -14,11 +14,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
+ * Servlet encargado de eliminar un libro de la base de datos.
+ * Este servlet recibe el ID de un libro, lo elimina de la base de datos
+ * y redirige al usuario a la lista de libros.
+ * 
  * @author fnast
  */
 public class Eliminar extends HttpServlet {
 
+    /**
+    * Maneja la solicitud GET para eliminar un libro de la base de datos.
+    * Obtiene el ID del libro desde la solicitud, ejecuta la consulta SQL
+    * para eliminar el libro y redirige al usuario a la lista de libros.
+    *
+    * @param request La solicitud HTTP que contiene el ID del libro a eliminar.
+    * @param response La respuesta HTTP que enviará el resultado al cliente.
+    * @throws ServletException Si ocurre un error en la ejecución del servlet.
+    * @throws IOException Si ocurre un error en la entrada/salida de la solicitud o respuesta.
+    */
    @Override
    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int idLibro = Integer.parseInt(request.getParameter("id"));
