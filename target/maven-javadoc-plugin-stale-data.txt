@@ -1,0 +1,65 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Facundo/.m2/repository/jakarta/platform/jakarta.jakartaee-api/8.0.0/jakarta.jakartaee-api-8.0.0.jar;C:/Users/Facundo/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.1.2/mariadb-java-client-3.1.2.jar;C:/Users/Facundo/.m2/repository/com/github/waffle/waffle-jna/3.2.0/waffle-jna-3.2.0.jar;C:/Users/Facundo/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar;C:/Users/Facundo/.m2/repository/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar;C:/Users/Facundo/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar;C:/Users/Facundo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar;C:/Users/Facundo/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar;C:/Users/Facundo/.m2/repository/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar;C:/Users/Facundo/.m2/repository/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.jar;C:/Users/Facundo/.m2/repository/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Profesional/Visual Studio Code/Proyectos/DAW/GitHub/DAW/DAW-java-app/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Profesional/Visual Studio Code/Proyectos/DAW/GitHub/DAW/DAW-java-app/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'PracticaUT3-1.0-SNAPSHOT 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Profesional/Visual Studio Code/Proyectos/DAW/GitHub/DAW/DAW-java-app/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'PracticaUT3-1.0-SNAPSHOT 1.0-SNAPSHOT API'
+com.mycompany.practicaut3
+com.mycompany.practicaut3.resources
+C:\Users\Facundo\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar = 1741452048908
+C:\Users\Facundo\.m2\repository\org\mariadb\jdbc\mariadb-java-client\3.1.2\mariadb-java-client-3.1.2.jar = 1741452049165
+C:\Users\Facundo\.m2\repository\com\github\waffle\waffle-jna\3.2.0\waffle-jna-3.2.0.jar = 1741452048993
+C:\Users\Facundo\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar = 1741452049395
+C:\Users\Facundo\.m2\repository\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar = 1741452049433
+C:\Users\Facundo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.36\jcl-over-slf4j-1.7.36.jar = 1741452049238
+C:\Users\Facundo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar = 1701361811320
+C:\Users\Facundo\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.9.3\caffeine-2.9.3.jar = 1741059893460
+C:\Users\Facundo\.m2\repository\com\google\errorprone\error_prone_annotations\2.10.0\error_prone_annotations-2.10.0.jar = 1741059893753
+C:\Users\Facundo\.m2\repository\org\checkerframework\checker-qual\3.23.0\checker-qual-3.23.0.jar = 1741452049184
+C:\Users\Facundo\.m2\repository\jakarta\servlet\jakarta.servlet-api\4.0.3\jakarta.servlet-api-4.0.3.jar = 1741452049293
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\src\main\java = 1741453805434
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\allclasses-index.html = 1741453960089
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\allpackages-index.html = 1741453960093
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\copy.svg = 1741453960143
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\element-list = 1741453959961
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\help-doc.html = 1741453960135
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\index-all.html = 1741453960119
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\index.html = 1741453960068
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\link.svg = 1741453960146
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\member-search-index.js = 1741453960100
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\module-search-index.js = 1741453960095
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\overview-summary.html = 1741453960125
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\overview-tree.html = 1741453960063
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\package-search-index.js = 1741453960096
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\script.js = 1741453960141
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\search-page.js = 1741453960153
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\search.html = 1741453960123
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\search.js = 1741453960151
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\serialized-form.html = 1741453960005
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\stylesheet.css = 1741453960139
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\tag-search-index.js = 1741453960102
+C:\Profesional\Visual Studio Code\Proyectos\DAW\GitHub\DAW\DAW-java-app\target\reports\apidocs\type-search-index.js = 1741453960099
